@@ -121,7 +121,7 @@ const ProfileUpdateModal = ({ isOpen, onClose, fieldType, userId, onUpdateSucces
               ) : (
                 <input
                   type="tel"
-                  placeholder="e.g. 9336646107"
+                  placeholder="e.g. 98XXXXXXXX"
                   value={value}
                   onChange={(e) => setValue(e.target.value)}
                   className="glass-input"

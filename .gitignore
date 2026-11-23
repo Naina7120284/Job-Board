@@ -1,1 +1,26 @@
-"frontend/.env" 
+# Dependencies
+node_modules/
+
+# Environment files (secrets)
+.env
+.env.*
+!.env.example
+
+# Uploaded resumes (created at runtime)
+backend/uploads/*
+!backend/uploads/.gitkeep
+
+# Build output
+frontend/dist/
+build/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
